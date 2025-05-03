@@ -5,13 +5,13 @@ const VideoSection: React.FC = () => {
     <section className="w-full bg-black">
       <div className="relative w-full aspect-video">
         <video
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover min-h-[300px]"
           autoPlay
           loop
           muted
           playsInline
         >
-          <source src="/GalerieMNC_Video.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}GalerieMNC_Video.mp4`} type="video/mp4" />
           Votre navigateur ne supporte pas la lecture de vidéos.
         </video>
       </div>

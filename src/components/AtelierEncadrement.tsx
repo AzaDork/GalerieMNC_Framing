@@ -3,7 +3,7 @@ import Atelier from '/GalerieMNC_Atelier.jpeg';
 
 const Mosaic: React.FC = () => {
   return (
-    <section className="py-8 pb-32 bg-white">
+    <section className="pb-32 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="w-full h-[300px] md:h-[600px]">
           <img
